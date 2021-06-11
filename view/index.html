@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kerítés ár kalkulátor</title>
+</head>
+<body>
+<h1>Kerítés ár kiszámítása GPS koordináták alapján</h1>
+Point A:<br>
+<label for="LatitudeA">Latitude: </label><input type="number" step="0.00001" id="LatitudeA">
+<label for="LongitudeA">Longitude: </label><input type="number" step="0.00001" id="LongitudeA"><br/><br/>
+Point B: <br>
+<label for="LatitudeB">Latitude: </label><input type="number" step="0.00001" id="LatitudeB">
+<label for="LongitudeB">Longitude: </label><input type="number" step="0.00001" id="LongitudeB"><br/><br/>
+<button type="submit" id="calcButton">Calculate</button>
+<br><br>
+<span id ="errorSpan" hidden="hidden"></span><br><br>
+Point C:<span id="pointCSpan"></span><br>
+Point D:<span id="pointDSpan"></span><br><br>
+Perimeter:<span id="perimeterSpan">0</span> Meter<br><br>
+Area:<span id="areaSpan">0</span> Square Meter<br><br>
+Total cost:<span id="priceSpan">0</span> Euro<br>
+</body>
+</html>
+<script type="text/javascript" src="./js/CalculatorEventHandler.js"></script>
+<script type="text/javascript" src="./js/AjaxCaller.js"></script>

@@ -1,0 +1,16 @@
+{
+  "require": {
+    "phpunit/phpunit": "8.*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "files": ["constants/constants.php"],
+    "psr-4": {
+      "controller\\": "controller",
+      "model\\": "model",
+      "rest\\": "rest",
+      "interfaces\\": "interfaces",
+      "helper\\": "helper"
+    }
+  }
+}
