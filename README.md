@@ -6,7 +6,7 @@ PhpStorm
 Docker image : https://hub.docker.com/repository/docker/ssjatesz/dpdtest
 
 Telepítés: 
-  egyszerűen letölteni, kicsomagolni,
+  egyszerűen letölteni mint zip, kicsomagolni,
   htaccess -t átnevezni .htaccess -re
 
 Docker futtatása:
